@@ -1,0 +1,34 @@
+#heroCarousel {
+    display: flex;
+    margin: 10px auto;
+    width: 60%;
+}
+
+.div {
+    text-decoration: none;
+}
+
+.d-block {
+    height: 400px;
+    cursor: pointer;
+}
+
+.card-img-top {
+    margin: 10px auto;
+    width: 60%;
+    height: 60%
+}
+
+.card {
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card:hover {
+    background-color: rgba(248, 215, 218, 0.5);
+}
+
+.div-sp {
+    display: flex;
+    justify-content: space-around;
+}
