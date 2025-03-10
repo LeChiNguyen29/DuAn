@@ -13,7 +13,6 @@ import java.util.Optional;
 @Controller
 @RestController
 @RequestMapping("/api/gio-hang")
-@CrossOrigin(origins = "http://localhost:3001")
 public class GioHangController {
     private final GioHangService gioHangService;
 

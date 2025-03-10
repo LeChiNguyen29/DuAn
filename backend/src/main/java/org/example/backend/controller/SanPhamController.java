@@ -12,7 +12,6 @@ import java.util.Optional;
 @Controller
 @RestController
 @RequestMapping("/api/san-pham")
-@CrossOrigin(origins = "http://localhost:3001")
 public class SanPhamController {
     private final SanPhamService sanPhamService;
 

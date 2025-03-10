@@ -4,7 +4,7 @@ function Footer () {
     return (
         <>
             <footer className="bg-dark text-white text-center py-3">
-                <p>&copy; 2025 FlowerCorner.vn. All rights reserved.</p>
+                <p>&copy; 2025 Technology.vn. All rights reserved.</p>
             </footer>
         </>
     )

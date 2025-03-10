@@ -1,6 +1,6 @@
 import React from "react";
 
-function DoiMatKhau () {
+function DoiMatKhau() {
     return (
         <>
             <div className="container py-5">
@@ -9,6 +9,10 @@ function DoiMatKhau () {
                         <div className="card shadow-sm p-4">
                             <h2 className="text-center fw-bold">Đổi Mật Khẩu</h2>
                             <form id="changePasswordForm">
+                                <div className="mb-3">
+                                    <label htmlFor="email" className="form-label">Email</label>
+                                    <input type="email" className="form-control" id="email" />
+                                </div>
                                 <div className="mb-3">
                                     <label htmlFor="currentPassword" className="form-label">Mật khẩu hiện tại</label>
                                     <input type="password" className="form-control" id="currentPassword" />

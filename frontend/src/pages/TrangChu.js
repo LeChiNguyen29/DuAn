@@ -8,10 +8,8 @@ function TrangChu() {
     const [gioHang, setGioHang] = useState([]);
 
     const addToCart = (sanPhamSelected) => {
-        
-        const sanPhamTrongGio = gioHang.find((item) => item.id === sanPhamSelected.id);
 
-        if (sanPhamTrongGio) {
+        if (sanPhamSelected) {
             
             // Neu san pham da ton tai thi + 1
         } else {
@@ -47,7 +45,7 @@ function TrangChu() {
 
     return (
         <>
-            <div id="heroCarousel" className="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img
@@ -74,7 +72,7 @@ function TrangChu() {
                 <button
                     className="carousel-control-prev"
                     type="button"
-                    data-bs-target="#heroCarousel"
+                    data-bs-target="#carouselExampleControls"
                     data-bs-slide="prev"
                 >
                     <span
@@ -85,7 +83,7 @@ function TrangChu() {
                 <button
                     className="carousel-control-next"
                     type="button"
-                    data-bs-target="#heroCarousel"
+                    data-bs-target="#carouselExampleControls"
                     data-bs-slide="next"
                 >
                     <span

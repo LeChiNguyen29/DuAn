@@ -22,7 +22,7 @@ function DagnNhap() {
                                 <button type="submit" className="btn btn-danger w-100">Đăng Nhập</button>
                             </form>
                             <p>Bạn chưa có tài khoản? <Link to="/dang-ky">Đăng ký ngay</Link></p>
-                            <p><Link to="/doi-mat-khau">Quên mật khẩu?</Link></p>
+                            <p><Link to="/quen-mat-khau">Quên mật khẩu?</Link></p>
                         </div>
                     </div>
                 </div>

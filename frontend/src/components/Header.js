@@ -6,7 +6,7 @@ function Header () {
         <header>
             <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
                 <div className="container">
-                    <Link className="navbar-brand text-danger fw-bold" to="/">FlowerCorner.vn</Link>
+                    <Link className="navbar-brand text-danger fw-bold" to="/">Technology.vn</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -23,7 +23,7 @@ function Header () {
                         </ul>
                         <form className="d-flex ms-3">
                             <input className="form-control me-2" type="search" placeholder="Tìm kiếm..." aria-label="Search"/>
-                            <button className="btn btn-outline-danger" type="submit">Tìm</button>
+                            <Link className="btn btn-outline-danger" to={'/tim-kiem'}>Tìm</Link>
                         </form>
                     </div>
                 </div>
