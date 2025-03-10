@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ConfirmButton from "../components/ConfirmButton";
 
 function QuenMatKhau() {
     return (
@@ -14,8 +15,14 @@ function QuenMatKhau() {
                                     <label htmlFor="email" className="form-label">Email</label>
                                     <input type="email" className="form-control" id="email" />
                                 </div>
-                                <Link className="btn btn-danger w-100" to="/dang-nhap">Tiếp tục</Link>
+                                <ConfirmButton 
+                                    name={'Tiếp tục'} 
+                                    message={'Vui lòng kiểm tra email và làm theo hướng dẫn.'} 
+                                    link={'/dang-nhap'}
+                                    btn={'btn btn-danger w-100'}    
+                                />
                             </form>
+                            <p><Link to="/dang-nhap">Quay lại</Link></p>
                         </div>
                     </div>
                 </div>

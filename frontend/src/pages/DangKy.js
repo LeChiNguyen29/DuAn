@@ -34,10 +34,6 @@ function DangKy() {
                                     <label htmlFor="confirmPassword" className="form-label">Nhập lại mật khẩu</label>
                                     <input type="password" className="form-control" id="confirmPassword" />
                                 </div>
-                                <div className="mb-3 form-check">
-                                    <input type="checkbox" className="form-check-input" id="terms" />
-                                    <label className="form-check-label" htmlFor="terms">Tôi đồng ý với điều khoản sử dụng</label>
-                                </div>
                                 <button type="submit" className="btn btn-danger w-100">Đăng Ký</button>
                             </form>
                             <p>Bạn đã có tài khoản? <Link to="/dang-nhap">Đăng nhập ngay</Link></p>
